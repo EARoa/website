@@ -1,2 +1,51 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+
+#header {
+
+  background:
+  linear-gradient(
+    rgba(41, 118, 185, 0.5),
+    rgba(52, 152, 219, 0.5)),
+    url("http://static.pexels.com/wp-content/uploads/2014/06/american-football-people-1238.jpg");
+
+
+    /*background: url("https://pbs.twimg.com/media/B7gN0gOIAAAzZnm.jpg") no-repeat center top;*/
+    padding-top: 5px;
+    background-attachment: relative;
+    background-position: center center;
+    min-height: 700px;
+    width: 100%;
+
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: white;
+  }
+
+  #header .logo {
+    margin-top: 30px;
+    margin-left: 40px;
+    padding-bottom: 150px;
+  }
+
+  #header .logo h2{
+    font-weight: 900;
+    color: white;
+    letter-spacing: 1px;
+  }
+
+  #header h3 {
+    margin-top: 10px;
+  }
+
+  #header i {
+    font-size: 50px;
+  }
