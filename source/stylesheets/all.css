@@ -1,6 +1,6 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
-
+@import 'test';
 
 #header {
 
@@ -49,3 +49,45 @@
   #header i {
     font-size: 50px;
   }
+/*
+
+
+End of Header
+
+*/
+
+  .email{
+    width: 50%;
+  }
+/*
+
+
+Links
+
+*/
+a,
+a:focus {
+  text-decoration: none;
+  color:#fff;
+}
+
+a:hover{
+  text-decoration: none;
+  color:#f9f2f2;
+}
+
+
+/*
+
+
+Footer
+
+*/
+
+#footer {
+
+    background:
+    -webkit-linear-gradient(bottom, rgba(41, 118, 185, 1), rgba(52, 152, 219, 1));
+
+
+}
