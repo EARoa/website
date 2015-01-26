@@ -9,6 +9,8 @@ h2,
 h3,
 h4,
 p,
+button,
+input,
 a{
   font-family: 'Quicksand', sans-serif;
 }
@@ -88,7 +90,7 @@ a:focus {
 
 a:hover{
   text-decoration: none;
-  color:#f9f2f2;
+  /*color:#f9f2f2;*/
 }
 /*
 
@@ -118,3 +120,29 @@ TESTIMONIALS
     -webkit-linear-gradient(bottom, rgba(41, 118, 185, 1), rgba(52, 152, 219, 1));
 
   }
+
+
+
+/*
+
+
+
+
+
+NAVBAR TEST
+
+
+
+*/
+
+
+.navbar.transparent.navbar-inverse .navbar-inner {
+  background: rgba(0,0,0,0.4);
+}
+
+
+.fill{
+  width: 20px;
+  length: 30px;
+  character: 40;
+}
